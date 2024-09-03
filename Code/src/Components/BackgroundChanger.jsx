@@ -16,9 +16,10 @@ function BackgroundChanger() {
   function green(){
     setColor("Green");
   }
+  function Reset(){
+    setColor("white");
+  }
 
-
-  
   
   return (
     <>
@@ -30,6 +31,7 @@ function BackgroundChanger() {
           <button onClick={blue}>Blue</button>
           <button onClick={aqua}>Aqua</button>
           <button onClick={green}>Green</button>
+          <button onClick={Reset}>Reset</button>
         </div>
       </div>
     </>

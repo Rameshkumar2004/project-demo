@@ -1,18 +1,25 @@
+import "./App.css";
+import APIRequest from "./GItAPI/APIRequest";
+import Gituser from "./GItAPI/Gituser";
+import JokeAPI from "./GItAPI/JokeAPI";
 
-import './App.css'
-// import Counter from './Components/Counter'
-import BackgroundChanger from './Components/BackgroundChanger'
+
+
 
 function App() {
-  
-
   return (
     <>
-      {/* <h1>Hello</h1> */}
-      {/* <Counter/> */}
-      <BackgroundChanger/>
+     
+    {/* <APIRequest/> */}
+   < Gituser/>
+   {/* <JokeAPI/> */}
+   
+
+      
+      
+
     </>
-  )
+  );
 }
 
 export default App;
